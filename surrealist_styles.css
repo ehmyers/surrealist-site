@@ -13,7 +13,6 @@
 	width: 900px;
 	height: 100%;
 	position: absolute;
-	background-color: light-gray;
 	overflow: hidden;
 }
 
@@ -39,8 +38,11 @@ body {
 
 header {
 	width: 100%;
-	background-color: #a9a9a9;
 	font: 35px "LittleDays";
+}
+
+#here {
+	color: #be5c1b;
 }
 
 li {
