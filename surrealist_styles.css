@@ -16,6 +16,14 @@
 	overflow: hidden;
 }
 
+/******************** window **********************/
+.window_above {
+	width: 900px;
+	height: 90%;
+	position: absolute;
+	overflow: hidden;
+}
+
 /******************** general *********************/
 
 body {
@@ -43,6 +51,11 @@ header {
 
 #here {
 	color: #be5c1b;
+}
+
+img {
+	padding: 0px;
+	margin: 0px;
 }
 
 li {
