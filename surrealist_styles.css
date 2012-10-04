@@ -61,7 +61,12 @@ img {
 li {
 	list-style: none;
 	display: inline;
-	padding-right: 50px;
+	padding:0px 40px 0px 10px;
+}
+
+ul {
+	padding: 0px;
+	margin: 3% 0% -10px 0%;
 }
 
 /******************** links *********************/
