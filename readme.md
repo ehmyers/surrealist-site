@@ -1,4 +1,4 @@
-Surrealist Styled Site
+Surrealistically Styled Site
 ===================================
 Emily Myers
 
