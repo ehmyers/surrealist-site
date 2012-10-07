@@ -37,6 +37,7 @@ body {
 	padding: 0px;
 	margin: 0px;
 	position: absolute;
+	background-color: gray;
 }
 
 @font-face {
