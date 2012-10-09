@@ -71,6 +71,10 @@ header {
 	color: #be5c1b;
 }
 
+h2 {
+	font: 25px "LittleDays";
+}
+
 img {
 	padding: 0px;
 	margin: 0px;
