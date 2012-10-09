@@ -26,26 +26,20 @@
 
 /******************** content *********************/
 .content {
-	padding: 0px;
+	padding: 0px 30px 0px 30px;
 	margin: 0px;
 	position: absolute;
-	background-color: gray;
+	height: 91%;
+	z-index: 5;
+	background: rgba(215, 215, 215, 0.3);
 }
 
 #philosophy {
-
-}
-
-#featured_themes {
-
+	
 }
 
 #theory_spreading {
 
-}
-
-#time_period {
-	
 }
 
 /******************** general *********************/
