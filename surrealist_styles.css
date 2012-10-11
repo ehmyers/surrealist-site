@@ -16,6 +16,19 @@
 	overflow: hidden;
 }
 
+/******************** menus ***********************/
+
+header {
+	width: 100%;
+	font: 35px "LittleDays";
+}
+
+.text_rotate {
+	transform: rotate(10deg);
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+}
+
 /******************** window **********************/
 .window_above {
 	width: 900px;
@@ -61,11 +74,6 @@ body {
 @font-face {
   font-family: LittleDays;
   src: url(Little days.ttf);
-}
-
-header {
-	width: 100%;
-	font: 35px "LittleDays";
 }
 
 #here {
