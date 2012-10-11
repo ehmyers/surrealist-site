@@ -55,21 +55,39 @@ header {
 	z-index: 5;
 }
 
-#philosophy {
+#position_one {
 	position: absolute;
 	left: 50%;
 	right: 10%;
 	top: 20%;
 }
 
-#theory_spreading {
+#position_two {
 	position: absolute;
 	left: 10%;
 	right: 50%;
 	top: 60%;
 }
 
+#position_three {
+	position: absolute;
+	left: 15%;
+	right: 40%;
+	top: 40%;
+}
+
+#position_four {
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	top: 30%;
+}
+
 /******************** general *********************/
+
+article {
+	font: 15px "CenturyGothic";
+}
 
 body {
 	background-color: #b4956c;
@@ -94,10 +112,6 @@ body {
 
 h2 {
 	font: 25px "LittleDays";
-}
-
-h3 {
-	font: 15px "CenturyGothic";
 }
 
 img {
