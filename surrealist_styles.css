@@ -48,6 +48,7 @@ header {
 	position: absolute;
 	height: 91%;
 	width: 100%;
+	top: 15%;
 	z-index: 5;
 }
 
@@ -82,6 +83,12 @@ body {
 @font-face {
 	font-family: CenturyGothic;
   src: url(Century Gothic);
+}
+
+header {
+	position: absolute;
+	z-index: 15;
+	top: 5%;
 }
 
 #here {
@@ -133,3 +140,71 @@ a:active {
 	text-decoration: none; 
 	color: #3a3322;
 	}
+
+/******************* parallax *******************/
+
+#background {
+	opacity: 1;
+	background: url('images/rotatable_bkds/surrealist_12.jpg');
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	position: fixed;
+	-webkit-transition: left 250s linear 0;
+	-moz-transition: left 250s linear 0;
+	-o-transition: left 250s linear 0;
+	transition: left 250s linear 0;
+}
+
+#midground {
+	background: url('images/rotatable_bkds/surrealist_12.jpg');
+	opacity: 0.5;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	position: fixed;
+	-webkit-transition: left 200s linear 0;
+	-moz-transition: left 200s linear 0;
+	-o-transition: left 200s linear 0;
+	transition: left 200s linear 0;
+}
+
+#foreground {
+	opacity: 0.3;
+	background: url('images/rotatable_bkds/surrealist_12.jpg');
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	position: fixed;
+	-webkit-transition: left 200s linear 0;
+	-moz-transition: left 200s linear 0;
+	-o-transition: left 200s linear 0;
+	transition: left 200s linear 0;
+}
+
+#experiment:target #background {
+  left: -5000px;
+}
+
+#experiment:target #midground {
+	left: -5000px;
+}
+
+#experiment:target #foreground {
+	left: -5000px;
+}
+
+#experiment:hover #midground {
+	left: -9999px;
+}
+ 
+#experiment:hover #background {
+  left: -9999px;
+}
+
+#experiment:hover #foreground {
+  left: -9999px;
+}
