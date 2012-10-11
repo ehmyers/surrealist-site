@@ -19,6 +19,9 @@
 /******************** menus ***********************/
 
 header {
+	position: absolute;
+	z-index: 15;
+	top: 5%;
 	width: 100%;
 	font: 35px "LittleDays";
 }
@@ -83,12 +86,6 @@ body {
 @font-face {
 	font-family: CenturyGothic;
   src: url(Century Gothic);
-}
-
-header {
-	position: absolute;
-	z-index: 15;
-	top: 5%;
 }
 
 #here {
