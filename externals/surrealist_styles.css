@@ -28,11 +28,20 @@ header {
 
 .text_rotate {
 	position: absolute;
-	top: 20px;
 	z-index: 10;
+	top: 20px;
 	transform: rotate(10deg);
 	-moz-transform: rotate(10deg);
 	-webkit-transform: rotate(10deg);
+}
+
+.another_text_rotate {
+	position: absolute;;
+	z-index: 10;
+	top: 40px
+	transform: rotate(-15deg);
+	-moz-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
 }
 
 /******************** window **********************/
@@ -98,12 +107,12 @@ body {
 
 @font-face {
   font-family: LittleDays;
-  src: url(Little days.ttf);
+  src: url(externals/Little days.ttf);
 }
 
 @font-face {
 	font-family: CenturyGothic;
-  src: url(Century Gothic);
+  src: url(externals/Century Gothic);
 }
 
 #here {
@@ -156,7 +165,7 @@ a:active {
 
 #background {
 	opacity: 1;
-	background: url('images/rotatable_bkds/surrealist_12.jpg');
+	background: url("../images/rotatable_bkds/surrealist_12.jpg");
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -169,7 +178,7 @@ a:active {
 }
 
 #midground {
-	background: url('images/rotatable_bkds/surrealist_12.jpg');
+	background: url("../images/rotatable_bkds/surrealist_12.jpg");
 	opacity: 0.5;
 	top: 0px;
 	left: 0px;
@@ -184,7 +193,7 @@ a:active {
 
 #foreground {
 	opacity: 0.3;
-	background: url('images/rotatable_bkds/surrealist_12.jpg');
+	background: url("../images/rotatable_bkds/surrealist_12.jpg");
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -200,22 +209,22 @@ a:active {
   left: -5000px;
 }
 
-#experiment:target #midground {
-	left: -5000px;
+#experiment:hover #background {
+  left: -9999px;
 }
 
-#experiment:target #foreground {
+#experiment:target #midground {
 	left: -5000px;
 }
 
 #experiment:hover #midground {
 	left: -9999px;
 }
- 
-#experiment:hover #background {
-  left: -9999px;
-}
 
 #experiment:hover #foreground {
   left: -9999px;
+}
+
+#experiment:target #foreground {
+	left: -5000px;
 }
