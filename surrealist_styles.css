@@ -24,6 +24,9 @@ header {
 }
 
 .text_rotate {
+	position: absolute;
+	top: 20px;
+	z-index: 10;
 	transform: rotate(10deg);
 	-moz-transform: rotate(10deg);
 	-webkit-transform: rotate(10deg);
@@ -76,12 +79,21 @@ body {
   src: url(Little days.ttf);
 }
 
+@font-face {
+	font-family: CenturyGothic;
+  src: url(Century Gothic);
+}
+
 #here {
 	color: #be5c1b;
 }
 
 h2 {
 	font: 25px "LittleDays";
+}
+
+h3 {
+	font: 15px "CenturyGothic";
 }
 
 img {
