@@ -26,7 +26,7 @@ header {
 	font: 35px "LittleDays";
 }
 
-.text_rotate {
+#text_rotate {
 	position: absolute;
 	z-index: 10;
 	top: 20px;
@@ -35,13 +35,22 @@ header {
 	-webkit-transform: rotate(10deg);
 }
 
-.another_text_rotate {
+#another_text_rotate {
 	position: absolute;;
 	z-index: 10;
 	top: 40px
 	transform: rotate(-15deg);
 	-moz-transform: rotate(-15deg);
 	-webkit-transform: rotate(-15deg);
+}
+
+#last_text_rotate {
+	position: absolute;;
+	z-index: 10;
+	top: 15px
+	transform: rotate(-25deg);
+	-moz-transform: rotate(-25deg);
+	-webkit-transform: rotate(-25deg);
 }
 
 /******************** window **********************/
