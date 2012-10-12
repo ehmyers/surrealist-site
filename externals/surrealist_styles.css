@@ -103,15 +103,15 @@ header {
 
 /******************** general *********************/
 
-article {
-	font: 15px "CenturyGothic";
-}
-
 body {
 	background-color: #b4956c;
 	font: 12px/18px helvetica, verdana, sans-serif;
 	margin: 0px;
 	padding: 0px;
+}
+
+div {
+	font: 15px "CenturyGothic";
 }
 
 @font-face {
