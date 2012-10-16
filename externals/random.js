@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-// changing the background image
+	// changing the background image
 	var randomnumber = Math.ceil(Math.random()*11);
 	if(randomnumber < 10) {
 		var url = "url('images/rotatable_bkds/surrealist_0" + randomnumber + ".jpg');";
@@ -16,8 +16,8 @@ $(document).ready(function(){
 
 	console.log($("#background").css("background"));
 
-// changing the active menu item
-	$(".small_menu").click(function() { // on click, change active menu
+	// changing the active menu item
+	$(".small_menu").click(function() {
 		var active_menu = $(this).children("a").attr("id");
 		$(".active").removeClass("active");
 		$(active_menu).addClass("active");
