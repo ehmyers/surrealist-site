@@ -71,6 +71,7 @@ header {
 	width: 100%;
 	top: 15%;
 	z-index: 5;
+	overflow: auto;
 }
 
 #position_one {
@@ -78,13 +79,15 @@ header {
 	left: 50%;
 	right: 10%;
 	top: 20%;
+	bottom: 10%;
 }
 
 #position_two {
 	position: absolute;
 	left: 10%;
 	right: 50%;
-	top: 60%;
+	top: 30%;
+	bottom: 10%;
 }
 
 #position_three {
@@ -92,16 +95,22 @@ header {
 	left: 15%;
 	right: 40%;
 	top: 40%;
+	bottom: 10%;
 }
 
 #position_four {
 	position: absolute;
 	left: 30%;
 	right: 30%;
-	top: 30%;
+	top: 10%;
+	bottom: 10%;
 }
 
 /******************** general *********************/
+
+#active {
+	color: #be5c1b;
+}
 
 body {
 	background-color: #b4956c;
@@ -132,12 +141,12 @@ div {
 	text-align: right;
 }
 
-#here {
-	color: #be5c1b;
-}
-
 h2 {
 	font: 25px "LittleDays";
+}
+
+h3 {
+	font: 20px "LittleDays";
 }
 
 img {
