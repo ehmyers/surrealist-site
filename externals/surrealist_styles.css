@@ -191,7 +191,7 @@ a:active {
 
 #background {
 	opacity: .8;
-	background: url("../images/rotatable_bkds/surrealist_07.jpg");
+	background: url("../images/rotatable_bkds/surrealist_10.jpg");
 	top: 0px;
 	left: 0px;
 	right: 0px;
@@ -204,7 +204,7 @@ a:active {
 }
 
 #midground {
-	background: url("../images/rotatable_bkds/surrealist_07.jpg");
+	background: url("../images/rotatable_bkds/surrealist_10.jpg");
 	opacity: 0.5;
 	top: 0px;
 	left: 0px;
@@ -219,7 +219,7 @@ a:active {
 
 #foreground {
 	opacity: 0.3;
-	background: url("../images/rotatable_bkds/surrealist_07.jpg");
+	background: url("../images/rotatable_bkds/surrealist_10b.jpg");
 	top: 0px;
 	left: 0px;
 	right: 0px;
