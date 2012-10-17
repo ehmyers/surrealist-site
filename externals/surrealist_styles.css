@@ -63,7 +63,19 @@ header {
 
 /******************** content *********************/
 
+a.active:link {
+	color: #be5c1b;
+}
+
 a.active:visited {
+	color: #be5c1b;
+}
+
+a.active:hover {
+	color: #be5c1b;
+}
+
+a.active:active {
 	color: #be5c1b;
 }
 

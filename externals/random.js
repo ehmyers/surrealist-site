@@ -2,12 +2,11 @@ $(document).ready(function(){
 	$("a").click(swap_background());
 	swap_background();
 
-	// changing the active menu item
-	$(".small_menu").click(function() {
-		var active_menu = $(this).children("a").attr("id");
-		$(".active").removeClass("active");
-		$(active_menu).addClass("active");
-	});
+	//changing the active menu item
+	$(".small_menu a").click(function() {
+		$(".small_menu a.active").removeClass("active");
+		$(this).addClass("active");
+	 });
 });
 
 // most important thing ever.
