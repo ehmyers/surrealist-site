@@ -1,12 +1,12 @@
 $(document).ready(function(){
 
 	// changing the background image
-	var randomnumber = Math.ceil(Math.random()*11);
-	if(randomnumber < 10) {
-		var url = "url('images/rotatable_bkds/surrealist_0" + randomnumber + ".jpg');";
+	var randomnumber = Math.ceil(Math.random()*10);
+	if(randomnumber < 9) {
+		var url = "url('images/rotatable_bkds/surrealist_0" + randomnumber + ".jpg')";
 	}
 	else {
-		var url = "url('images/rotatable_bkds/surrealist_" + randomnumber + ".jpg');";
+		var url = "url('images/rotatable_bkds/surrealist_" + randomnumber + ".jpg')";
 	}
 	console.log(url);
 
@@ -21,4 +21,5 @@ $(document).ready(function(){
 		var active_menu = $(this).children("a").attr("id");
 		$(".active").removeClass("active");
 		$(active_menu).addClass("active");
+	});
 });
