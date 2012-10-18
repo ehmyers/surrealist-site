@@ -3,11 +3,11 @@ $(document).ready(function(){
 		swap_background();
 
 		// showing the content clicked on
-		$("active").hide();
-		var active_menu = $(this).children("a").attr("menu_item");
-		$(active_menu).removeClass("active");
+		//$("active").hide();
+		var active_content = $(this).children("a").attr("menu_item");
+		$(active_content).removeClass("active");
 		$("menu_item").addClass("active");
-		$("menu_item").fadeIn();
+		$(".info_box").css("display", "block");
 
 	});
 
