@@ -14,16 +14,17 @@ function swap_background(){
 	// changing the background image on click
 	var randomnumber = Math.ceil(Math.random()*10);
 	if(randomnumber < 10) {
-		var url = "url('images/rotatable_bkds/surrealist_0" + randomnumber + ".jpg')";
+		var url = "url('images/rotatable_bkds/surrealist_0" + randomnumber;
 	}
 	else {
-		var url = "url('images/rotatable_bkds/surrealist_" + randomnumber + ".jpg')";
+		var url = "url('images/rotatable_bkds/surrealist_" + randomnumber;
 	}
-	console.log(url);
 
-	$("#background").css("background-image", url);
-	$("#midground").css("background-image", url);
-	$("#foreground").css("background-image", url);
+	$("#background").css("background-image", url + ".jpg')");
+	$("#midground").css("background-image", url + ".jpg')");
+	$("#foreground").css("background-image", url + "b.jpg')");
+
+	console.log(url);
 
 	console.log($("#background").css("background"));
 }
