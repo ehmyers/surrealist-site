@@ -3,6 +3,7 @@ $(document).ready(function(){
 		swap_background();
 	});
 	swap_background();
+	swap_favicon();
 
 	//changing the active menu item
 	$(".small_menu a").click(function() {
@@ -32,7 +33,7 @@ function swap_background(){
 }
 
 // swapping favicons
-function swap_favicon(){
-	var secondrandom = Math.ceil(Math.random()*8);
-	var url = "url('images/favicons/favicon" + randomnumber + ".ico");
-}
+//function swap_favicon(){
+//	var secondrandom = Math.ceil(Math.random()*8);
+//	var url = "url('images/favicons/favicon" + secondrandom + ".ico");
+//}
