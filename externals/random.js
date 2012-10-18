@@ -1,9 +1,17 @@
 $(document).ready(function(){
 	$("a").click(function(){
 		swap_background();
+
+		// showing the content clicked on
+		$("active").hide();
+		var active_menu = $(this).children("a").attr("menu_item");
+		$(active_menu).removeClass("active");
+		$("menu_item").addClass("active");
+		$("menu_item").fadeIn();
+
 	});
+
 	swap_background();
-	swap_favicon();
 
 	//changing the active menu item
 	$(".small_menu a").click(function() {
