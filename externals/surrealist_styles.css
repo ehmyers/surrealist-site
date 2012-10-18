@@ -243,10 +243,10 @@ a:active {
 	right: 0px;
 	bottom: 0px;
 	position: fixed;
-	-webkit-transition: left 1000s linear 0;
-	-moz-transition: left 1000s linear 0;
-	-o-transition: left 1000s linear 0;
-	transition: left 1000s linear 0;
+	-webkit-transition: left 1500s linear 0;
+	-moz-transition: left 1500s linear 0;
+	-o-transition: left 1500s linear 0;
+	transition: left 1500s linear 0;
 }
 
 #experiment:target #background {

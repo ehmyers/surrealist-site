@@ -32,8 +32,8 @@ function swap_background(){
 	}
 
 	$("#background").css("background-image", url + ".jpg')");
-	$("#midground").css("background-image", url + ".jpg')");
-	$("#foreground").css("background-image", url + "b.jpg')");
+	$("#midground").css("background-image", url + "a.png')");
+	$("#foreground").css("background-image", url + "b.png')");
 
 	console.log(url);
 
