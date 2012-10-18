@@ -6,7 +6,7 @@ $(document).ready(function(){
 		//$("active").hide();
 		var active_content = $(this).children("a").attr("menu_item");
 		$(active_content).removeClass("active");
-		$("menu_item").addClass("active");
+		$(active_content).addClass("active");
 		$(".info_box").css("display", "block");
 
 	});

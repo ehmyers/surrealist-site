@@ -1,0 +1,5 @@
+still to do
+
+make the correct content appear on correct click
+make sure the top menu stays to the top of the content menu
+fix swap-favicon function

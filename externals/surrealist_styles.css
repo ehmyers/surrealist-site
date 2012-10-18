@@ -53,8 +53,7 @@ header {
 	-webkit-transform: rotate(-25deg);
 }
 
-/******************** window **********************/
-.window_above {
+.window {
 	width: 900px;
 	height: 90%;
 	position: absolute;
