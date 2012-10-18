@@ -1,5 +1,7 @@
 $(document).ready(function(){
-	$("a").click(swap_background());
+	$("a").click(function(){
+		swap_background();
+	});
 	swap_background();
 
 	//changing the active menu item
