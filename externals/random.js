@@ -30,3 +30,9 @@ function swap_background(){
 
 	console.log($("#background").css("background"));
 }
+
+// swapping favicons
+function swap_favicon(){
+	var secondrandom = Math.ceil(Math.random()*8);
+	var url = "url('images/favicons/favicon" + randomnumber + ".ico");
+}
