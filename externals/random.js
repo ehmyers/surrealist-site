@@ -1,26 +1,14 @@
 $(document).ready(function(){
 	$("a").click(function(){
 		swap_background();
-
-		// showing the content clicked on
-		//$("active").hide();
-		var active_content = $(this).children("a").attr("menu_item");
-		$(active_content).removeClass("active");
-		$(active_content).addClass("active");
-		$(".info_box").css("display", "block");
-
 	});
-
 	swap_background();
-
-	//changing the active menu item
-	$(".small_menu a").click(function() {
-		$(".small_menu a.active").removeClass("active");
-		$(this).addClass("active");
-	 });
+	changing_active_menu();
+	clicked_on_content();
 });
 
-// most important thing ever.
+/* function time! */
+
 function swap_background(){
 	// changing the background image on click
 	var randomnumber = Math.ceil(Math.random()*10);
@@ -36,12 +24,30 @@ function swap_background(){
 	$("#foreground").css("background-image", url + "b.png')");
 
 	console.log(url);
-
 	console.log($("#background").css("background"));
 }
 
-// swapping favicons
+function changing_active_menu(){
+	//changing the active menu item
+	$(".small_menu a").click(function() {
+		$(".small_menu a.active").removeClass("active");
+		console.log(this);
+		$(this).addClass("active");
+		console.log(this);
+	 });
+}
+
+function clicked_on_content(){
+	// showing the content clicked on
+	//$("active").hide();
+	var active_content = $(this).children("a").attr("menu_item");
+	$(active_content).removeClass("active");
+	$(active_content).addClass("active");
+	$(".info_box").css("display", "block");
+}
+
 //function swap_favicon(){
-//	var secondrandom = Math.ceil(Math.random()*8);
-//	var url = "url('images/favicons/favicon" + secondrandom + ".ico");
+	// swapping favicons
+	//	var secondrandom = Math.ceil(Math.random()*8);
+	//	var url = "url('images/favicons/favicon" + secondrandom + ".ico");
 //}
