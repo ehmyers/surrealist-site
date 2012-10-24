@@ -2,9 +2,10 @@
 <head>
 <title>surrealism - about</title>
 <link rel="stylesheet" href="externals/surrealist_styles.css" />
-<link rel="icon" type="image/ico" href="images/favicons/favicon07.ico" />
+<link rel="icon" type="image/ico" href="images/favicons/favicon01.ico" />
 <script type="text/javascript" src="externals/jquery.js"></script>
 <script type="text/javascript" src="externals/random.js"></script>
+<script type="text/javascript" src="mootools.svn.js"></script>
 </head>
 
 <body>
@@ -29,26 +30,31 @@
 			</nav>
 			<nav class="small_menu" id="last_text_rotate">
 				<ul>
-					<li><a href="#" class="active">paintings</a></li>
-					<li><a href="#">drawings</a></li>
-					<li><a href="#">video</a></li>
+					<li><a href="#" class="active" menu-item="paintings">paintings</a></li>
+					<li><a href="#" menu-item="drawings">drawings</a></li>
+					<li><a href="#" menu-item="video">video</a></li>
 				</ul>
 			</nav>
 		</header>
 
 		<section class="active content">
-			<article id="position_one">
-			
+			<article class="info_box" id="paintings">
+				<ul>
+					<li><img src="gallery/paintings/manifesto_of_surrealism_breton.jpg" alt="Manifesto of Surrealism" /><span>Manifesto of Surrealism, Breton</span></li>
+					<li><img src="gallery/paintings/nude_descending_staircase_2_duchamp.jpg" alt="Nude Descending a Staircase 2" /><span>Nude Descending a Staircase 2, Duchamp</span></li>
+					<li><img src="gallery/paintings/treachery_of_images_magritte.jpg" alt="Treachery of Images" /><span>Treachery of Images, Magritte</span></li>
+					<li><img src="gallery/paintings/triumph_of_surrealism_ernst.jpg" alt="Triumph of Surrealism" /><span>Triumph of Surrealism, Ernst</span></li>
+				</ul>
 			</article>
 
-			<article id="position_two">
-			<!--
-			!-->
+			<article class="info_box" id="drawings">
+				<li><img src="gallery/drawings/convulsive_beauty_ray.gif" alt="Convulsive Beauty" /><span>Convulsive Beauty, Ray</span></li>
+				<li><img src="gallery/drawings/stalker_lukshina.jpg" alt="Stalker" /><span>Stalker, Lukshina</span></li>
 			</article>
 
-			<article id="position_three">
-			<!--
-			!-->
+			<article class="info_box" id="videos">
+				<li><a href="http://www.youtube.com/watch?v=V7PQvkYYikU"><img src="gallery/videos/letoile_de_mer_ray.png" alt="L'Etoile de Mer" /></a><span>L'Etoile de Mer, Ray</span></li>
+				<li><a href="http://video.google.com/videoplay?docid=7633509394552540790"><img src="gallery/videos/lage_dor_bunuel.jpeg" alt="L'Age d'Or" /></a><span>L'Age d'Or, Bunuel</span></li>
 			</article>
 			
 			<article id="footer">

@@ -95,7 +95,7 @@ a.active:active {
 	color: #222222;
 }
 
-#position_one {
+.position_one {
 	position: absolute;
 	left: 50%;
 	right: 10%;
@@ -103,7 +103,7 @@ a.active:active {
 	bottom: 10%;
 }
 
-#position_two {
+.position_two {
 	position: absolute;
 	left: 10%;
 	right: 50%;
@@ -111,15 +111,15 @@ a.active:active {
 	bottom: 10%;
 }
 
-#position_three {
+.position_three {
 	position: absolute;
-	left: 15%;
-	right: 40%;
-	top: 40%;
+	left: 5%;
+	right: 50%;
+	top: 25%;
 	bottom: 10%;
 }
 
-#position_four {
+.position_four {
 	position: absolute;
 	left: 30%;
 	right: 30%;
@@ -131,13 +131,9 @@ a.active:active {
 
 body {
 	background-color: #b4956c;
-	font: 12px/18px helvetica, verdana, sans-serif;
+	font: 15px "CenturyGothic", helvetica, arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
-}
-
-div {
-	font: 15px "CenturyGothic";
 }
 
 @font-face {
@@ -169,12 +165,19 @@ h3 {
 img {
 	padding: 0px;
 	margin: 0px;
+	max-height: 200px;
 }
 
 li {
 	list-style: none;
 	display: inline;
 	padding:0px 40px 0px 10px;
+}
+
+span {
+	-webkit-transform:rotate(90deg);
+	-moz-transform:rotate(90deg);
+	-o-transform: rotate(90deg);
 }
 
 ul {

@@ -1,5 +1,5 @@
-still to do
+fix spacing on the gallery page
 
-make the correct content appear on correct click
-make sure the top menu stays to the top of the content menu
-fix swap-favicon function
+get draggable elements working?
+
+upload to my site and the server by thursday

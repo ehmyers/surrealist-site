@@ -1,9 +1,20 @@
 $(document).ready(function(){
 	$("a").click(function(){
 		swap_background();
-		changing_active_menu();
 	});
+
+	$(".small_menu a").click(function(){
+		// showing the content clicked on
+		$("active").hide();
+		var active_content = $(this).attr("menu-item");
+		console.log("active content " + active_content);
+		$(".info_box").hide();
+		$("#" + active_content).show();
+		//$(".info_box").css("display", "block");
+	});
+
 	swap_background();
+	changing_active_menu();
 });
 
 /* function time! */
@@ -21,8 +32,6 @@ function swap_background(){
 	$("#background").css("background-image", url + ".jpg')");
 	$("#midground").css("background-image", url + "a.png')");
 	$("#foreground").css("background-image", url + "b.png')");
-	// console.log(url);
-	// console.log($("#background").css("background"));
 }
 
 function changing_active_menu(){
@@ -30,15 +39,6 @@ function changing_active_menu(){
 	$(".small_menu a").click(function() {
 		$(".small_menu a.active").removeClass("active");
 		$(this).addClass("active");
-		//console.log(this);
-
-		// showing the content clicked on
-		var active_content = $(this).children("a").attr("menu_item");
-		console.log(active_content);
-		$(".info_box").children().hide();
-		// $(active_content).removeClass("active");
-		// $(active_content).addClass("active");
-		$(".info_box").css("display", "block");
 	 });
 }
 
