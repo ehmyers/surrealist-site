@@ -1,10 +1,9 @@
 $(document).ready(function(){
 	$("a").click(function(){
 		swap_background();
+		changing_active_menu();
 	});
 	swap_background();
-	changing_active_menu();
-	clicked_on_content();
 });
 
 /* function time! */
@@ -22,28 +21,25 @@ function swap_background(){
 	$("#background").css("background-image", url + ".jpg')");
 	$("#midground").css("background-image", url + "a.png')");
 	$("#foreground").css("background-image", url + "b.png')");
-
-	console.log(url);
-	console.log($("#background").css("background"));
+	// console.log(url);
+	// console.log($("#background").css("background"));
 }
 
 function changing_active_menu(){
 	//changing the active menu item
 	$(".small_menu a").click(function() {
 		$(".small_menu a.active").removeClass("active");
-		console.log(this);
 		$(this).addClass("active");
-		console.log(this);
-	 });
-}
+		//console.log(this);
 
-function clicked_on_content(){
-	// showing the content clicked on
-	//$("active").hide();
-	var active_content = $(this).children("a").attr("menu_item");
-	$(active_content).removeClass("active");
-	$(active_content).addClass("active");
-	$(".info_box").css("display", "block");
+		// showing the content clicked on
+		var active_content = $(this).children("a").attr("menu_item");
+		console.log(active_content);
+		$(".info_box").children().hide();
+		// $(active_content).removeClass("active");
+		// $(active_content).addClass("active");
+		$(".info_box").css("display", "block");
+	 });
 }
 
 //function swap_favicon(){
