@@ -131,7 +131,7 @@ a.active:active {
 
 body {
 	background-color: #b4956c;
-	font: 15px "CenturyGothic", helvetica, arial, sans-serif;
+	font: 12px/18px "CenturyGothic", helvetica, arial, sans-serif;
 	margin: 0px;
 	padding: 0px;
 }

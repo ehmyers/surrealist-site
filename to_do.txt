@@ -1,3 +1,7 @@
+fix bringing up the first menu on each page
+
+come up with better sizing for the fonts?
+
 fix spacing on the gallery page
 
 get draggable elements working?
