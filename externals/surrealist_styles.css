@@ -53,11 +53,38 @@ header {
 	-webkit-transform: rotate(-25deg);
 }
 
-.window {
-	width: 900px;
-	height: 90%;
-	position: absolute;
-	overflow: hidden;
+/******************** art/light box *********************/
+
+.art_box {
+	padding: 0px;
+}
+
+.lightbox {
+	display: none;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	background: rgba(0,0,0, 0.7);
+	padding-top: 100px;
+	padding-left: 150px;
+}
+
+.close-btn {
+	position: fixed;
+	top: 68px;
+	color: #fff;
+	font-size: 18px;
+}
+.close-btn a:link {
+	color: white;
+}
+
+li span {
+	position: relative;
+	left: -220px;
+	font-size: 12px;
 }
 
 /******************** content *********************/
@@ -87,12 +114,14 @@ a.active:active {
 	width: 100%;
 	top: 15%;
 	z-index: 5;
-	overflow: auto;
+	overflow: hidden;
 }
 
 .info_box {
 	display: none;
 	color: #222222;
+	padding: 5px;
+	overflow: auto;
 }
 
 .position_one {
@@ -163,7 +192,7 @@ h3 {
 }
 
 img {
-	padding: 0px;
+	padding: 20px;
 	margin: 0px;
 	max-height: 200px;
 }
@@ -171,18 +200,27 @@ img {
 li {
 	list-style: none;
 	display: inline;
+	padding:0px;
+}
+
+header li {
 	padding:0px 40px 0px 10px;
 }
 
-span {
-	-webkit-transform:rotate(90deg);
-	-moz-transform:rotate(90deg);
-	-o-transform: rotate(90deg);
+.small_menu li {
+	padding:0px 40px 0px 10px;
 }
 
 ul {
 	padding: 0px;
 	margin: 3% 0% -10px 0%;
+}
+
+.window {
+	width: 900px;
+	height: 90%;
+	position: absolute;
+	overflow: hidden;
 }
 
 /******************** links *********************/

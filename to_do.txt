@@ -1,8 +1,6 @@
-fix bringing up the first menu on each page
+get scrolling working when gallery is too big
 
-come up with better sizing for the fonts?
-
-fix spacing on the gallery page
+fix lightbox on the gallery page?
 
 get draggable elements working?
 
