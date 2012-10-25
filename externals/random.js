@@ -15,6 +15,8 @@ $(document).ready(function(){
 
 	swap_background();
 	changing_active_menu();
+
+	$(".small_menu li:first-child a").click()
 });
 
 /* function time! */
