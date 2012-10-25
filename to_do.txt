@@ -1,5 +1,3 @@
 get scrolling working when gallery is too big
 
-add more drawings and videos
-
 upload to my site and the server by thursday
