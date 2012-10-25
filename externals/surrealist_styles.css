@@ -86,6 +86,10 @@ header {
 	height: 80%;
 }
 
+.lightbox h2 {
+	color: white;
+}
+
 li span {
 	position: relative;
 	left: -220px;
