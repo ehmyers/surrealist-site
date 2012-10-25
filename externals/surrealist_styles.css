@@ -174,31 +174,43 @@ body {
 	padding: 0px;
 }
 
-@font-face {
- font-family: LittleDays;
- src: url("externals/fonts/little_days.eot"); /* EOT file for IE */
+/*@font-face {
+	font-family: 'little_days';
+	src: url('fonts/little_days.eot');
+	src: local('☺'), url('fonts/little_days.woff') format('woff'), url('fonts/little_days.ttf') format('truetype'), url('fonts/little_days.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
+
+@font-face {
+	font-family: 'century_gothic';
+	src: url('fonts/century_gothic.eot');
+	src: local('☺'), url('fonts/century_gothic.woff') format('woff'), url('fonts/century_gothic.ttf') format('truetype'), url('fonts/century_gothic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
 
 @font-face {
   font-family: LittleDays;
-  src: url("externals/fonts/little_days.ttf"); /* TTF file for everyone else */
+  src: url("externals/fonts/little_days.ttf");
 }
 
 @font-face {
-	font-family: CenturyGothic;
-  src: url("externals/fonts/century_gothic.eot"); /* EOT file for everyone else */
-}
+	font-family: LittleDays;
+ 	src: url("externals/fonts/little_days.eot");
+ 	src: local('LittleDays'), url('externals/fonts/little_days.svg') format('svg'), url('externals/fonts/little_days.woff') format('woff'),  url('externals/fonts/little_days.ttf') format('truetype');
+  }
 
 @font-face {
 	font-family: CenturyGothic;
-  src: url("externals/fonts/century_gothic.ttf"); /* TTF file for everyone else */
+  src: url("externals/fonts/century_gothic.ttf");
 }
 
 #footer {
 	position: absolute;
 	right: 7%;
 	bottom: 7%;
-	font: 40px LittleDays;
+	font: 40px "LittleDays";
 	text-align: right;
 }
 
