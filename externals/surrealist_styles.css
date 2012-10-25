@@ -175,13 +175,23 @@ body {
 }
 
 @font-face {
+ font-family: LittleDays;
+ src: url("externals/fonts/little_days.eot"); /* EOT file for IE */
+}
+
+@font-face {
   font-family: LittleDays;
-  src: url(externals/Little days.ttf);
+  src: url("externals/fonts/little_days.ttf"); /* TTF file for everyone else */
 }
 
 @font-face {
 	font-family: CenturyGothic;
-  src: url(externals/Century Gothic);
+  src: url("externals/fonts/century_gothic.eot"); /* EOT file for everyone else */
+}
+
+@font-face {
+	font-family: CenturyGothic;
+  src: url("externals/fonts/century_gothic.ttf"); /* TTF file for everyone else */
 }
 
 #footer {
