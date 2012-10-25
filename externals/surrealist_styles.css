@@ -57,6 +57,7 @@ header {
 
 .art_box {
 	padding: 0px;
+	overflow: auto;
 }
 
 .lightbox {
@@ -79,6 +80,10 @@ header {
 }
 .close-btn a:link {
 	color: white;
+}
+
+.lightbox img {
+	height: 80%;
 }
 
 li span {
@@ -191,7 +196,7 @@ h3 {
 	font: 20px "LittleDays";
 }
 
-img {
+li img {
 	padding: 20px;
 	margin: 0px;
 	max-height: 200px;

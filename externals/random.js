@@ -44,6 +44,17 @@ function changing_active_menu(){
 	 });
 }
 
+function showLightbox(id) {
+	var selector = '#' + id + '-lightbox';
+	console.log(selector);
+	$('.lighbox').hide();
+	$(selector).fadeIn();
+}
+
+function closeLightbox() {
+	$('.lightbox').fadeOut();
+}
+
 //function swap_favicon(){
 	// swapping favicons
 	//	var secondrandom = Math.ceil(Math.random()*8);
