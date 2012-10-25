@@ -192,18 +192,18 @@ body {
 
 @font-face {
   font-family: LittleDays;
-  src: url("externals/fonts/little_days.ttf");
+  src: url("fonts/little_days.ttf");
 }
 
 @font-face {
 	font-family: LittleDays;
- 	src: url("externals/fonts/little_days.eot");
- 	src: local('LittleDays'), url('externals/fonts/little_days.svg') format('svg'), url('externals/fonts/little_days.woff') format('woff'),  url('externals/fonts/little_days.ttf') format('truetype');
+ 	src: url("fonts/little_days.eot");
+ 	src: local('LittleDays'), url('fonts/little_days.svg') format('svg'), url('fonts/little_days.woff') format('woff'),  url('fonts/little_days.ttf') format('truetype');
   }
 
 @font-face {
 	font-family: CenturyGothic;
-  src: url("externals/fonts/century_gothic.ttf");
+  src: url("fonts/century_gothic.ttf");
 }
 
 #footer {
